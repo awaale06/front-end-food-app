@@ -296,7 +296,7 @@ export const food_list = [
         image: food_25,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "All day food"
+        category: "Daily food"
     },
     {
         _id: "26",
@@ -304,21 +304,21 @@ export const food_list = [
         image: food_26,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "All day food"
+        category: "Daily food"
     }, {
         _id: "27",
         name: "Creamy Pasta",
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "All day food"
+        category: "Daily food"
     }, {
         _id: "28",
         name: "Chicken Pasta",
         image: food_28,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "All day food"
+        category: "Daily food"
     }, {
         _id: "29",
         name: "Buttter Noodles",
