@@ -9,7 +9,7 @@ function Navbar({setShowLogin} ) {
   return (
     <div className='flex justify-between items-center sm:px-3 '>
         <Link to='/'><img src={assets.logo} className='w-[120px] mt-3' alt="" /></Link>
-      <ul className='sm:flex gap-4 text-yellow-400 text-sm hidden    cursor-pointer'>
+      <ul className='sm:flex gap-4 text-yellow-800 text-xl hidden    cursor-pointer'>
             <Link to='/' onClick={()=>setMenu("home")} className={menu=="home" ?"active " :"" } >Home</Link>
             <a href='#explore-menu' onClick={()=>setMenu("menu")} className={menu=="menu" ?"active" :""}>Menu</a>
             <a href='#app-download' onClick={()=>setMenu("contact-us")} className={menu=="contact-us" ?"active" :""}>Contact Us</a>
